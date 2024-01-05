@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Origem</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Local de nascimento: <input type="text" name="loc" id="loc">
+    <input type="button" value="calcular" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var nac = window.document.querySelector('input#loc') //Salvando na variavel nac o texto digitado no local de nascimento
+            var res = window.document.querySelector('div#res') // fazendo uma DIV e adicionando a ela um id para podermos utilizala como resposta ao usúario 
+            var end = nac.value // o valor digitado dentro da variavel nac
+            res.innerHTML = `<p>Você nasceu em <strong>${end}!</strong>!</p>`
+            if (end != Brasil) {
+                res.innerHTML += `<p>Você <strong>NÃO</strong> é Br volta de onde veio luzer</p>`
+            } else {
+                res.innerHTML += `<p>Tu é BR huehue zueiros!</p>`
+            } 
+        }
+    </script>
+    
+</body>
+</html>

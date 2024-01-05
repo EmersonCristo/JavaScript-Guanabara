@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(138, 66, 40);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white; /* Cor das letras que estão no cabeçalho */
+    text-align: center; /*Alinhando as letras os centro da pagina */
+}
+
+section {
+    background: white; /* cor das letras */
+    border-radius: 10px; /* deixando as bordas redondas com 10px */
+    padding: 15px; /* deixando distancia em volta */
+    width: 500px; /* largura */
+    margin: auto; /* margem */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329); /* Sombreamento em volta */
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px; /* largura */
+    height: 150px; /* altura */
+}
+
+div {
+    text-align: center;
+}
