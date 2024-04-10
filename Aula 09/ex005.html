@@ -7,8 +7,6 @@
     <title>Primeiros passos com DOM</title>
     <style>
         body {
-            background-color: burlywood;
-            color: black;
             font: normal 18pt arial;
         }
     </style>
@@ -23,7 +21,8 @@
         var p1 = window.document.getElementsByTagName('p')[1] // Adicionando na variavel p1 o elemento do paragrafo 1 [p1]
         var d = window.document.getElementById('msg') // Usando DOM para salvar os elementos do paragrafo com a tag msg 
         d.style.background = 'green'
-        corpo.style.background = 'red'  
+        corpo.style.background = 'black' 
+        corpo.style.color = 'white'
         d.innerHTML.background = 'blue'
     </script>
 </body>
