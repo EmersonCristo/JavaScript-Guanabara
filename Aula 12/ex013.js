@@ -15,7 +15,7 @@ var diaSem = agora.getDay() // puxando do new date, o dia real
     
     console.log(diaSem) // Aparecera no Node o dia que sera atribuido abaixo pelo Switch
 
-    switch(diaSem) { // switch é usado para condições mais precisar e repetitivas
+    switch(diaSem) { // switch é usado para condições mais precisas e repetitivas
         case 0:
             console.log('Domingo')
             break
